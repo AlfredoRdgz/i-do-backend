@@ -16,7 +16,7 @@ exports.sendRsvpFormResponse = (request) => {
         } catch (error) {
             reject({
                 MessageCode: 202,
-                Message: "La información no se actualizó correctamente."
+                Message: error
             });
         }
     });
