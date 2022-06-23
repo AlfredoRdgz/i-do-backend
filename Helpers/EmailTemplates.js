@@ -30,7 +30,7 @@ exports.createWeddingResponseEmail = function (data) {
                         <td esdev-links-color="#999999" align="center"
                             style="padding:0;Margin:0">
                             <p
-                                style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color: ${secondaryColor}">
+                                style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;">
                                 ¡Uno&nbsp;de&nbsp;sus&nbsp;invitados&nbsp;ha&nbsp;respondido&nbsp;a&nbsp;su&nbsp;invitación!
                             </p>
                         </td>
