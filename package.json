@@ -1,0 +1,24 @@
+{
+  "name": "i-do-backend",
+  "version": "1.0.0",
+  "description": "Backend for weddings",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "PuntoDoce",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fastify": "^3.7.0",
+    "fastify-cors": "^4.1.0",
+    "fastify-static": "^3.3.0",
+    "fastify-swagger": "^3.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.16",
+    "request": "^2.88.2",
+    "util": "^0.12.3"
+  }
+}
