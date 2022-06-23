@@ -50,7 +50,7 @@ exports.createWeddingResponseEmail = function (data) {
                     <tr style="border-collapse:collapse">
                         <td align="center" style="padding:0;Margin:0;padding-bottom:5px">
                             <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;">
-                                Atentamente:&nbsp;IDoEvent&nbsp;|nbsp;Punto&nbsp;Doce
+                                Atentamente:&nbsp;IDoEvent&nbsp;|&nbsp;Punto&nbsp;Doce
                             </p>
                         </td>
                     </tr>
