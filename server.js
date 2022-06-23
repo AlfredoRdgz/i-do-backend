@@ -13,7 +13,7 @@ app.register(require('fastify-swagger'), swagger.options);
 app.register(rsvp, { prefix: '/rsvp' });
 
 // Server listener.
-app.listen(process.env.PORT || 3000, (err) => {
+app.listen({ port: process.env.PORT || 3000, host: process.env.HOST || '0.0.0.0' }, (err) => {
     if (err) {
         app.log.error(err)
         process.exit(1)
